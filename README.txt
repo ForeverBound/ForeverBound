@@ -24,6 +24,9 @@ To change the forest, edit images/forest2.jpg in style.css to images/forest1.jpg
 
 EXISTING IMAGE FILES USED (not included)
 images/forest2.jpg
+images/accentbar.jpg
+images/button2.png
+images/but4.jpg
 images/titlelogo.png
 images/titlehoriz.png
 images/horizontalwood.jpg
@@ -41,3 +44,6 @@ Videos are loaded from your ChristopherTyler portfolio website.
 Audio previews use the original Google Drive players and retain their existing sharing permissions. Each includes an Open audio link if the embedded player is unavailable. Google Drive controls retain Google's own styling; the purple glow applies to the site's controls. Video playback controls use the browser's native controls.
 
 No existing website or repository was modified or published during preparation.
+
+UPDATE 2
+Card header uses the original accentbar.jpg colours. All content headings use purple. Top navigation uses button2.png; card buttons use but4.jpg. The Home introduction is expanded and the flourish is centred.
