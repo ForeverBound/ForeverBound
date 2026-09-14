@@ -57,3 +57,47 @@
 .chapter-label,#section-label{color:#a975c0;}
 @media(max-width:1100px){.topbar nav a,.topbar nav a[aria-current]{font-size:12.6px;}}
 @media(max-width:600px){.home-visuals{gap:20px;}.home-visuals .home-art{max-height:none;}}
+
+/* 2026-09-15: subtle ambient magic and supplied carousel arrow artwork. */
+body::before{
+ content:"";
+ position:fixed;
+ inset:0;
+ z-index:0;
+ pointer-events:none;
+ opacity:.24;
+ background-image:
+  radial-gradient(circle at 7% 18%,rgba(190,95,255,.22) 0 1px,transparent 2px),
+  radial-gradient(circle at 23% 72%,rgba(166,76,238,.16) 0 1px,transparent 2px),
+  radial-gradient(circle at 39% 31%,rgba(211,136,255,.12) 0 1px,transparent 2px),
+  radial-gradient(circle at 58% 78%,rgba(179,88,244,.15) 0 1px,transparent 2px),
+  radial-gradient(circle at 74% 22%,rgba(206,119,255,.17) 0 1px,transparent 2px),
+  radial-gradient(circle at 92% 64%,rgba(164,69,235,.19) 0 1px,transparent 2px),
+  radial-gradient(circle at 15% 48%,rgba(202,120,255,.10) 0 2px,transparent 3px),
+  radial-gradient(circle at 83% 42%,rgba(191,95,255,.11) 0 2px,transparent 3px);
+ background-size:260px 260px,340px 340px,410px 410px,300px 300px,450px 450px,320px 320px,520px 520px,560px 560px;
+ filter:blur(.15px);
+ animation:magic-drift 34s linear infinite alternate;
+}
+.site-shell{position:relative;z-index:1;}
+@keyframes magic-drift{
+ from{background-position:0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0;}
+ to{background-position:22px -30px,-26px 18px,18px 24px,-20px -22px,28px 14px,-16px 30px,20px -16px,-24px 12px;}
+}
+
+.section-arrow span{
+ width:100%;
+ height:100%;
+ font-size:0;
+ line-height:0;
+ background-repeat:no-repeat;
+ background-position:center;
+ background-size:68% auto;
+ filter:drop-shadow(0 2px 3px #0009);
+}
+.section-arrow.previous span{background-image:url('images/left.png');}
+.section-arrow.next span{background-image:url('images/right.png');}
+.section-arrow:hover span,.section-arrow:focus-visible span{filter:drop-shadow(0 0 6px #c477f0);}
+@media(max-width:600px){
+ .section-arrow span{background-size:auto 72%;}
+}
