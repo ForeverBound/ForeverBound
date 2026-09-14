@@ -37,6 +37,7 @@ images/fancy.png
 images/poster.jpg
 images/group1.jpg
 images/group6.jpg
+images/town1.jpg
 images/lanternlogo small.png
 
 The studio lion logo is loaded from your CINAEDVS studio website.
@@ -47,3 +48,6 @@ No existing website or repository was modified or published during preparation.
 
 UPDATE 2
 Card header uses the original accentbar.jpg colours. All content headings use purple. Top navigation uses button2.png; card buttons use but4.jpg. The Home introduction is expanded and the flourish is centred.
+
+UPDATE 3
+Home stacks town1.jpg below the poster. Button labels are uppercase with softer colour, and top navigation text is 10% smaller. The card header lettering is softer purple. Seraphis is first in Recurring Characters with the supplied revised biography. The second preview is labelled Moravok’s Origin; its media URL is unchanged. Soundtrack links await replacement and are unchanged in this package.
