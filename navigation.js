@@ -1,14 +1,14 @@
 'use strict';
 (() => {
- const sections = ['home','episodes','characters','soundtrack','previews'];
- const names = ['Home','Episodes','Characters','Soundtrack','Previews'];
+ const sections = ['home','episodes','characters','behind-the-scenes','soundtrack','previews'];
+ const names = ['Home','Episodes','Characters','Behind the Scenes','Soundtrack','Previews'];
  const content = document.getElementById('card-content');
  const cache = new Map();
  let current = 0, request = 0;
  document.getElementById('year').textContent = new Date().getFullYear();
  function sync() {
   document.getElementById('section-label').textContent = names[current];
-  document.getElementById('position-label').textContent = `${String(current + 1).padStart(2,'0')} / 05`;
+  document.getElementById('position-label').textContent = `${String(current + 1).padStart(2,'0')} / 06`;
   content.setAttribute('aria-label',`${names[current]} content`);
   document.title = `${names[current]} — Forever Bound`;
   document.querySelectorAll('.topbar nav a,.dots a').forEach(a => {
