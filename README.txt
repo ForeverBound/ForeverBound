@@ -1,53 +1,89 @@
-FOREVER BOUND — WEBSITE PACKAGE
+# Forever Bound 🔮💎🏰🐐
 
-UPLOAD
-Extract this ZIP and upload index.html, style.css, navigation.js and the pages folder into the root of your ForeverBound repository, alongside your existing images folder. Keep the folder structure exactly as supplied. No image, audio or video files are included.
+**Forever Bound** is an original historical-fantasy musical series following an immortal witch across centuries as she searches for the reincarnated soul of the man she loves.
 
-Expected address: https://foreverbound.github.io/ForeverBound/
-Do not upload the ZIP itself as the website. Upload its extracted contents.
+🌐 **Visit the website:**  
+https://foreverbound.github.io/ForeverBound/
 
-The website loads pages over HTTP, so double-clicking index.html on your computer will not load the cards. View it through GitHub Pages after upload, or use a local web server.
+---
 
-FILES
-index.html: fixed frame, header, section arrows and footer.
-style.css: textures, dimensions, responsive layouts and purple hover/focus glow.
-navigation.js: content loading, section navigation, browser Back/Forward and preview selector.
-pages/home.html: homepage.
-pages/episodes.html: all ten supplied episode summaries, in order.
-pages/characters.html: all fifteen supplied biographies, in their supplied groups.
-pages/soundtrack.html: eight audio previews from the original website.
-pages/previews.html: two videos and Instagram link.
+## About the Series
 
-EDITING
-Edit the appropriate file inside pages/ to update a card. These files are HTML fragments loaded into the main frame. Image paths in them are relative to index.html: use images/filename.jpg.
-To change the forest, edit images/forest2.jpg in style.css to images/forest1.jpg.
+In 525 CE, **Ameldra "Mel" Runestone** and **Luca della Forza** become bound to a curse that will follow them through history.
 
-EXISTING IMAGE FILES USED (not included)
-images/forest2.jpg
-images/accentbar.jpg
-images/button2.png
-images/but4.jpg
-images/titlelogo.png
-images/titlehoriz.png
-images/horizontalwood.jpg
-images/verticalwood.jpg
-images/cornerimg.png
-images/wallpaper.jpg
-images/fancy.png
-images/poster.jpg
-images/group1.jpg
-images/group6.jpg
-images/town1.jpg
-images/lanternlogo small.png
+Luca's soul is repeatedly reincarnated without the memories of his former lives, while Mel remains immortal and remembers every cycle.
 
-The studio lion logo is loaded from your CINAEDVS studio website.
-Videos are loaded from your ChristopherTyler portfolio website.
-Audio previews use the original Google Drive players and retain their existing sharing permissions. Each includes an Open audio link if the embedded player is unavailable. Google Drive controls retain Google's own styling; the purple glow applies to the site's controls. Video playback controls use the browser's native controls.
+Each time Luca returns, Mel has only **thirteen days** to find him and restore their connection before the curse strengthens the forces attempting to tear open the boundary between the living world and the Underworld.
 
-No existing website or repository was modified or published during preparation.
+Across different centuries, cultures and historical events, Mel and her companions encounter witches, spirits, ancient artefacts, forgotten gods, supernatural creatures and human conflicts — while gradually uncovering the true origins of the curse and the powers manipulating it.
 
-UPDATE 2
-Card header uses the original accentbar.jpg colours. All content headings use purple. Top navigation uses button2.png; card buttons use but4.jpg. The Home introduction is expanded and the flourish is centred.
+At the centre of the story is a question that becomes increasingly difficult to answer:
 
-UPDATE 3
-Home stacks town1.jpg below the poster. Button labels are uppercase with softer colour, and top navigation text is 10% smaller. The card header lettering is softer purple. Seraphis is first in Recurring Characters with the supplied revised biography. The second preview is labelled Moravok’s Origin; its media URL is unchanged. Soundtrack links await replacement and are unchanged in this package.
+**How long can love survive when only one person remembers?**
+
+---
+
+## The World of Forever Bound
+
+The series combines real historical settings with an original magical mythology built around:
+
+- reincarnation and inherited memory
+- Aetheris and nature-based magic
+- the Living World, Limbo and the Underworld
+- ancient artefacts and lost magical traditions
+- prophecy, fate and free will
+- historical belief systems and changing cultures
+- the consequences of immortality
+- the conflict between memory and recorded history
+
+Recurring characters include **Mel, Luca, Father Vitus, Greta, Erik, Ivalio, Nyx, Seraphis, Sylvara, Merdeha** and **Capra Lactaria**.
+
+---
+
+## The Website
+
+The Forever Bound website contains:
+
+- **Home** — introduction to the series
+- **Episodes** — stories from across the first season
+- **Characters** — main and recurring characters
+- **Soundtrack** — the official Season 1 music collection
+- **Previews** — video previews and additional story material
+
+The site is designed as a visual companion to the series, bringing together story information, character artwork, music and video in one place.
+
+---
+
+## Soundtrack
+
+Music is an important part of **Forever Bound**, with original songs used as character pieces, story moments and recurring musical themes.
+
+The Season 1 soundtrack is available directly through the website using the official Audio.com collection player.
+
+🎵 **Forever Bound — Season 1**  
+https://audio.com/forever-bound/collections/forever-bound-season-1
+
+---
+
+## Development
+
+The website is a lightweight static site built with:
+
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
+- Audio.com embedded audio
+
+It is designed to remain simple, portable and easy to expand as new episodes, characters, music and preview material are added.
+
+---
+
+## Live Site
+
+### 🔮 [Enter the world of Forever Bound](https://foreverbound.github.io/ForeverBound/)
+
+---
+
+**Forever Bound**  
+Original story, characters, world and creative project by Christopher.
