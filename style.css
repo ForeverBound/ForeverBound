@@ -16,7 +16,7 @@
 .topbar nav{gap:8px;}
 .topbar nav a,.topbar nav a[aria-current]{
  display:flex;align-items:center;justify-content:center;
- min-height:48px;min-width:122px;padding:12px 24px;
+ min-height:48px;min-width:152px;padding:12px 30px;
  background: url('images/button2.png') center / 100% 100% no-repeat;
  border:0;border-radius:0;color:var(--cream);text-shadow:0 1px 3px #000;
  box-shadow:none;
@@ -34,7 +34,7 @@
 .button:hover,.button:focus-visible{box-shadow:0 0 18px #ab47e980;filter:drop-shadow(0 0 7px #b04ae9);}
 @media(max-width:1100px){
  .topbar{gap:12px;}.topbar nav{gap:4px;}
- .topbar nav a,.topbar nav a[aria-current]{min-width:102px;padding:12px 18px;font-size:14px;}
+ .topbar nav a,.topbar nav a[aria-current]{min-width:126px;padding:11px 22px;font-size:12px;}
 }
 @media(max-width:800px){
  .topbar{flex-direction:column;}.brand{width:230px;}
@@ -42,7 +42,7 @@
 }
 @media(max-width:600px){
  .topbar nav{flex-wrap:wrap;gap:2px 5px;}
- .topbar nav a,.topbar nav a[aria-current]{min-width:96px;min-height:44px;padding:10px 16px;font-size:14px;}
+ .topbar nav a,.topbar nav a[aria-current]{min-width:108px;min-height:44px;padding:10px 15px;font-size:11.5px;}
 }
 
 /* Home image stack and softer navigation lettering. */
@@ -53,9 +53,9 @@
  text-transform:uppercase;letter-spacing:.045em;color:#c4b39b;
 }
 .button[aria-pressed=true],.topbar nav a[aria-current]{color:#bd94cd;}
-.topbar nav a,.topbar nav a[aria-current]{font-size:14.4px;}
+.topbar nav a,.topbar nav a[aria-current]{font-size:13px;}
 .chapter-label,#section-label{color:#a975c0;}
-@media(max-width:1100px){.topbar nav a,.topbar nav a[aria-current]{font-size:12.6px;}}
+@media(max-width:1100px){.topbar nav a,.topbar nav a[aria-current]{font-size:12px;}}
 @media(max-width:600px){.home-visuals{gap:20px;}.home-visuals .home-art{max-height:none;}}
 
 /* 2026-09-15: subtle ambient magic and supplied carousel arrow artwork. */
@@ -65,24 +65,27 @@ body::before{
  inset:0;
  z-index:0;
  pointer-events:none;
- opacity:.24;
+ opacity:.58;
  background-image:
-  radial-gradient(circle at 7% 18%,rgba(190,95,255,.22) 0 1px,transparent 2px),
-  radial-gradient(circle at 23% 72%,rgba(166,76,238,.16) 0 1px,transparent 2px),
-  radial-gradient(circle at 39% 31%,rgba(211,136,255,.12) 0 1px,transparent 2px),
-  radial-gradient(circle at 58% 78%,rgba(179,88,244,.15) 0 1px,transparent 2px),
-  radial-gradient(circle at 74% 22%,rgba(206,119,255,.17) 0 1px,transparent 2px),
-  radial-gradient(circle at 92% 64%,rgba(164,69,235,.19) 0 1px,transparent 2px),
-  radial-gradient(circle at 15% 48%,rgba(202,120,255,.10) 0 2px,transparent 3px),
-  radial-gradient(circle at 83% 42%,rgba(191,95,255,.11) 0 2px,transparent 3px);
- background-size:260px 260px,340px 340px,410px 410px,300px 300px,450px 450px,320px 320px,520px 520px,560px 560px;
- filter:blur(.15px);
- animation:magic-drift 34s linear infinite alternate;
+  radial-gradient(circle at 7% 18%,rgba(204,110,255,.60) 0 1.2px,transparent 2.6px),
+  radial-gradient(circle at 23% 72%,rgba(177,77,246,.48) 0 1.1px,transparent 2.4px),
+  radial-gradient(circle at 39% 31%,rgba(219,145,255,.42) 0 1px,transparent 2.3px),
+  radial-gradient(circle at 58% 78%,rgba(188,90,250,.46) 0 1.3px,transparent 2.7px),
+  radial-gradient(circle at 74% 22%,rgba(215,126,255,.50) 0 1.1px,transparent 2.5px),
+  radial-gradient(circle at 92% 64%,rgba(175,72,244,.52) 0 1.2px,transparent 2.6px),
+  radial-gradient(circle at 15% 48%,rgba(207,119,255,.34) 0 2px,transparent 4px),
+  radial-gradient(circle at 83% 42%,rgba(195,96,255,.38) 0 1.8px,transparent 3.8px),
+  radial-gradient(circle at 48% 12%,rgba(228,170,255,.28) 0 2.2px,transparent 4.4px),
+  radial-gradient(circle at 66% 55%,rgba(169,70,241,.30) 0 2px,transparent 4.2px);
+ background-size:220px 220px,290px 290px,360px 360px,260px 260px,390px 390px,280px 280px,470px 470px,510px 510px,620px 620px,560px 560px;
+ filter:drop-shadow(0 0 2px rgba(190,88,255,.75)) drop-shadow(0 0 5px rgba(123,20,222,.30));
+ animation:magic-drift 26s ease-in-out infinite alternate;
 }
 .site-shell{position:relative;z-index:1;}
 @keyframes magic-drift{
- from{background-position:0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0;}
- to{background-position:22px -30px,-26px 18px,18px 24px,-20px -22px,28px 14px,-16px 30px,20px -16px,-24px 12px;}
+ 0%{background-position:0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0;opacity:.42;}
+ 50%{opacity:.64;}
+ 100%{background-position:30px -38px,-32px 24px,24px 30px,-28px -26px,34px 18px,-22px 36px,26px -20px,-30px 16px,20px 22px,-18px -24px;opacity:.48;}
 }
 
 .section-arrow span{
@@ -103,9 +106,13 @@ body::before{
 }
 
 
-/* 2026-09-15: compact Audio.com Season 1 collection embed. */
-.soundtrack-collection{max-width:440px;margin:0 auto 18px;}
+/* 2026-09-15: compact two-column Audio.com soundtrack layout. */
+.soundtrack-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(380px,440px);gap:52px;align-items:start;max-width:1120px;margin:0 auto;}
+.soundtrack-intro{border-bottom:0;margin:0;padding:16px 0 0;align-self:start;}
+.soundtrack-intro .intro{max-width:540px;}
+.soundtrack-collection{max-width:440px;width:100%;margin:0;justify-self:end;}
 .audio-com-player{width:min(100%,424px);margin:0 auto;padding:10px;background:#110f1280;border:1px solid #7f5d3a77;border-radius:4px;box-shadow:0 14px 34px #0007;}
 .audio-com-viewport{position:relative;width:100%;height:483px;overflow:hidden;border-radius:1px;background:#1f001d;}
 .audio-com-player iframe{display:block;width:125%;height:604px;border:0;border-radius:1px;background:#1f001d;transform:scale(.8);transform-origin:top left;}
-@media(max-width:600px){.audio-com-player{padding:7px;}.audio-com-viewport{height:483px;}}
+@media(max-width:900px){.soundtrack-layout{grid-template-columns:1fr;gap:30px;}.soundtrack-intro{padding-top:0;}.soundtrack-collection{justify-self:center;}.audio-com-player{margin:0 auto;}}
+@media(max-width:600px){.soundtrack-layout{gap:22px;}.audio-com-player{padding:7px;}.audio-com-viewport{height:483px;}}
